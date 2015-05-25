@@ -26,7 +26,8 @@ class Sale2 implements Runnable{
 	        {  
 	            if(ticket > 0){  
 	                System.out.println(Thread.currentThread().getName()+"------>"+"ticket = " + ticket--);  
-	            }  
+	            } 
+	            
 	        }  
 	}
 	
