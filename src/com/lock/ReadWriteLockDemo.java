@@ -107,9 +107,6 @@ public void setCash(int cash) {
 
 @Override 
 public String toString() { 
-        return "MyCount{" + 
-                        "oid='" + oid + '\'' + 
-                        ", cash=" + cash + 
-                        '}'; 
+        return "MyCount{" + "oid='" + oid + '\'' + ", cash=" + cash + '}'; 
 } 
 }
